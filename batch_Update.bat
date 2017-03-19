@@ -10,6 +10,8 @@ echo update soufone repo
 %PythonCMD%  %SufoneRepo_UpdateScript%
 
 echo commit to github
-git add */*
-git commit "update repo."
+git config credential.helper store
+git config --global user.name "soufon94"
+git add *
+git commit -m "update repo."
 git push --set-upstream origin master
