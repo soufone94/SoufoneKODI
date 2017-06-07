@@ -1,3 +1,19 @@
+Version 0.6.8-souf0:
+	- Merge from 0.6.8
+	- add youtube replay
+	
+Version 0.6.8
+  -Reverted to TF1 API
+
+Version 0.6.7
+  -Fixed NRJ12, Cherie25
+  
+Version 0.6.6
+  -Fixed issue while charging 6play lists
+  -Fixed duration for 6play
+  -Added RTBF Auvio
+  -Fixed Allocine
+
 Version 0.6.5
   -Added M6 group channels
   -Added INA (Thanks Gdusart)
@@ -7,12 +23,7 @@ Version 0.6.4
   -Fix TF1 when duration is empty
   -Update Gulli
 
-Version 0.6.3-souf3-beta0
-	- add rotana
-Version 0.6.3-souf2
-  -Reworked DUBAI: add By Categories
-  
-Version 0.6.3-souf0
+Version 0.6.3
   -Reworked TF1
   -Deactivated Wat
   -Fixed iTele
@@ -23,12 +34,6 @@ Version 0.6.2
   -Fixed NRJ12 & Cherie25
   -Fixed Gully (Thanks to mperreir)
   -Fixed TF1 (thanks vaurele) 
-
-Version 0.6.1-beta3
-	- add dubai replay: awaan
-	
-Version 0.6.1-beta1
-  -Added MBC
 
 Version 0.6.1
   -Added RTS (Maybe)
