@@ -1,0 +1,8 @@
+v1.1.0
+- adapt to ActionHandler changes
+
+v1.0.0
+- complete rework
+
+v0.8.0
+- Initial version
