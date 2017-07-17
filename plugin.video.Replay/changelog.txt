@@ -1,3 +1,7 @@
+Version 0.6.8-souf8: 
+	- add cinemaroc
+	- SHAHID4U bugfix 
+	
 Version 0.6.8-souf6:
 	- Add SHAHID4
 	
