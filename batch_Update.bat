@@ -9,6 +9,7 @@ set SufoneRepo_UpdateScript=%WorkingDir%/addons_xml_generator.py
 echo update soufone repo
 %PythonCMD%  %SufoneRepo_UpdateScript%
 
+cd %WorkingDir%
 echo commit to github
 git config credential.helper store
 git config --global user.name "soufon94"
