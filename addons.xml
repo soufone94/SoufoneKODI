@@ -76,7 +76,7 @@ Vous choisissez une catégorie, puis une sous catégorie et à vous les videos d
 
 <addon id="plugin.video.Replay"
        name="Replay"
-       version="0.6.8-souf13-bis"
+       version="0.6.8-souf14"
        provider-name="SPM, JUL1EN094, sy6sy2,soufone">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
