@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.MyVOD"
+       name="MyVOD"
+       version="0.6.8-souf0"
+       provider-name="SPM, JUL1EN094, sy6sy2,soufone">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+    <import addon="script.module.parsedom" version="0.9.1"/>
+    <import addon="script.module.requests" version="1.1.0"/>
+    <import addon="script.module.simplejson"/>
+    <import addon="script.module.html5lib"/>
+    <import addon="metadata.common.imdb.com"/>
+    <import addon="metadata.common.themoviedb.org"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Addon giving access to catchups tvshows for french channels</summary>
+    <summary lang="fr">Plugin vidéo donnant acces aux MyVODs de differentes chaines FR</summary>
+    <description lang="en">This addon gives access to french catchups TV Channels<BR/>
+    Favourites show all shows by folder, or all videos. You can then filter to only show unwatched shows.
+    </description>
+    <description lang="fr">Ce plugin permet d'acceder aux MyVOD TV de differentes chaines francophones. <BR/>
+    Les favoris affichent les emissions par repertoire ou toutes les videos. Vous pouvez ensuite filtrer les videos non visualisees.
+    </description>
+    <email>kodi.MyVOD@gmail.com</email>
+    <forum>http://media-passion.fr/add-ons-video/MyVOD-french-MyVOD/</forum>
+    <language>fr</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <source>https://github.com/spmjc/plugin.video.MyVOD</source>
+    <disclaimer></disclaimer>
+    <website></website>
+  </extension>
+</addon>
