@@ -104,7 +104,7 @@ Vous choisissez une catégorie, puis une sous catégorie et à vous les videos d
 
 <addon id="plugin.video.MyVOD"
        name="MyVOD"
-       version="0.6.8-souf0"
+       version="0.6.8-souf1"
        provider-name="SPM, JUL1EN094, sy6sy2,soufone">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
