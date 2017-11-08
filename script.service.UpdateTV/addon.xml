@@ -7,7 +7,6 @@
         <import addon="script.module.dropbox" />
         <import addon="metadata.themoviedb.org" />
 		<import addon="script.module.beautifulsoup"/>
-        <import addon="script.module.schism.common"/>
 
 
         
