@@ -648,7 +648,6 @@ Deze addon kan in een keer je hele videocollectie verwijderen! Zorg dat je preci
         <import addon="script.module.dropbox" />
         <import addon="metadata.themoviedb.org" />
 		<import addon="script.module.beautifulsoup"/>
-        <import addon="script.module.schism.common"/>
 
 
 
