@@ -130,6 +130,30 @@ Vous choisissez une catégorie, puis une sous catégorie et à vous les videos d
   </extension>
 </addon>
 
+<addon id="plugin.video.fitnessblender" name="Fitness Blender" version="0.1.0" provider-name="ionizedwarhead">
+    <requires>
+        <import addon="xbmc.python" version="2.20.0"/>
+        <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+        <import addon="script.module.requests" version="2.7.0"/>
+	<import addon="plugin.video.youtube" version="5.1.8"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+    	<summary lang="en">Provides a Kodi outlet for the fitness blender site</summary>
+        <description lang="en">Fitness Videos from Fitness Blender</description>
+        <disclaimer lang="en"></disclaimer>
+        <language></language>
+        <platform>all</platform>
+        <license></license>
+        <forum></forum>
+        <website></website>
+        <email></email>
+        <source></source>
+    </extension>
+</addon>
+
 <addon id="plugin.video.MyVOD"
        name="MyVOD"
        version="0.6.8-souf3"
@@ -215,6 +239,32 @@ Vous choisissez une catégorie, puis une sous catégorie et à vous les videos d
         <platform>all</platform>
         <summary lang="fr">Regarder le futur avec Satuner Tv.</summary>
         <description lang="fr">Cet add-on vous propose de regarder la plupart des chaines en direct à partir des flux video disponibles sur internet. Les chaines proposées sont classées par contenu avec une description detaillée.</description>
+    </extension>
+</addon>
+
+<addon id="plugin.video.watchkissanime" name="Watch Kiss Anime" version="0.4.1" provider-name="jdollar">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="xbmc.gui" version="5.12.0"/>
+        <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+        <import addon="script.module.cfscrape" version="1.6.8"/>
+        <import addon="script.module.urlresolver" version="2.10.0"/>
+        <import addon="script.module.t0mm0.common" version="2.1.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+    	<summary lang="en">Provides a kodi addon that is capable of accessing the kissanime site</summary>
+        <description lang="en">Anime Videos from KissAnime</description>
+        <disclaimer lang="en"></disclaimer>
+        <language></language>
+        <platform>all</platform>
+        <license>MIT</license>
+        <forum></forum>
+        <website></website>
+        <email></email>
+        <source></source>
     </extension>
 </addon>
 
@@ -528,6 +578,100 @@ version="0.0.2">
 			<screenshot>resources/screenshot-05.jpg</screenshot>
 		</assets>
 	</extension>
+</addon>
+
+<addon id="script.module.cfscrape"
+       name="cfscrape"
+       version="1.6.8"
+       provider-name="jdollar">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="script.module.requests" version="2.9.1"/>
+    <import addon="script.module.js2py" version="0.4.3"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Scraper that bypasses cloudflare's anti bot security</summary>
+    <description>Packed for Kodi from https://github.com/Anorov/cloudflare-scrape</description>
+    <platform>all</platform>
+    <language></language>
+    <license>MIT</license>
+    <forum></forum>
+    <website>https://github.com/Anorov/cloudflare-scrape</website>
+    <source>http://github.com/Anorov/cloudflare-scrape</source>
+    <email>ionizedwarhead10 AT gmail.com</email>
+  </extension>
+</addon>
+
+<addon id="script.module.js2py"
+       name="js2py"
+       version="0.4.3"
+       provider-name="jdollar">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="script.module.six" version="1.9.0"/>
+    <import addon="script.module.pyjsparser" version="2.4.5"/>
+    <import addon="script.module.tzlocal" version="1.3.1"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Pure Python JavaScript Translator/Interpreter</summary>
+    <description>Packed for Kodi from https://github.com/PiotrDabkowski/Js2Py</description>
+    <platform>all</platform>
+    <language></language>
+    <license>MIT</license>
+    <forum></forum>
+    <website>https://github.com/PiotrDabkowski/Js2Py</website>
+    <source>https://github.com/PiotrDabkowski/Js2Py</source>
+    <email>ionizedwarhead10 AT gmail.com</email>
+  </extension>
+</addon>
+
+<addon id="script.module.pyjsparser"
+       name="pyjsparser"
+       version="2.4.5"
+       provider-name="jdollar">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Pure Python JavaScript Translator/Interpreter</summary>
+    <description>Packed for Kodi from https://github.com/PiotrDabkowski/pyjsparser</description>
+    <platform>all</platform>
+    <language></language>
+    <license>MIT</license>
+    <forum></forum>
+    <website>https://github.com/PiotrDabkowski/pyjsparser</website>
+    <source>https://github.com/PiotrDabkowski/pyjsparser</source>
+    <email>ionizedwarhead10 AT gmail.com</email>
+  </extension>
+</addon>
+
+<addon id="script.module.tzlocal"
+       name="tzlocal"
+       version="1.3.1"
+       provider-name="jdollar">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="script.module.pytz" version="2014.2"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Python Module to find out the current time zone</summary>
+    <description>Packed for Kodi from https://github.com/regebro/tzlocal</description>
+    <platform>all</platform>
+    <language></language>
+    <license>MIT</license>
+    <forum></forum>
+    <website>https://github.com/regebro/tzlocal</website>
+    <source>https://github.com/regebro/tzlocal</source>
+    <email>ionizedwarhead10 AT gmail.com</email>
+  </extension>
 </addon>
 
 <addon id="script.program.FTVnetflix"
