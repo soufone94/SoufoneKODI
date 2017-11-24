@@ -10,6 +10,7 @@ set SufoneRepo_UpdateScript=%WorkingDir%/addons_xml_generator.py
 
 echo update soufone repo
 %PythonCMD%  %SufoneRepo_UpdateScript%
+echo xml, md5 generated
 
 cd %WorkingDir%
 echo commit to github
