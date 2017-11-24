@@ -828,7 +828,7 @@ Deze addon kan in een keer je hele videocollectie verwijderen! Zorg dat je preci
     </extension>
 </addon>
 
-<addon id="script.service.UpdateTV" name="UpdateTV" version="0.1" provider-name="soufone">
+<addon id="script.service.UpdateTV" name="UpdateTV" version="0.2" provider-name="soufone">
     <requires>
         <import addon="xbmc.python" version="2.25.0" />
         <import addon="xbmc.json" version="7.0.0" />
@@ -837,6 +837,7 @@ Deze addon kan in een keer je hele videocollectie verwijderen! Zorg dat je preci
         <import addon="metadata.themoviedb.org" />
         <import addon="script.module.beautifulsoup"/>
         <import addon="metadata.elcinema.com"/>
+        <import addon="script.module.cfscrape"/>
 
 
 
