@@ -2,7 +2,6 @@
 color 0E
 title Update Sofone Repo.
 REM C:\Users\soufian\AppData\Local\GitHub\GitHub.appref-ms --open-shell
-pause
 
 set WorkingDir=%~dp0
 set PythonCMD=c:\Python27\python.exe
