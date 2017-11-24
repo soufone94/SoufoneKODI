@@ -1,7 +1,7 @@
 @echo off
 color 0E
 title Update Sofone Repo.
-C:\Users\soufian\AppData\Local\GitHub\GitHub.appref-ms --open-shell
+REM C:\Users\soufian\AppData\Local\GitHub\GitHub.appref-ms --open-shell
 
 
 set WorkingDir=%~dp0
