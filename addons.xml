@@ -828,7 +828,7 @@ Deze addon kan in een keer je hele videocollectie verwijderen! Zorg dat je preci
     </extension>
 </addon>
 
-<addon id="script.service.UpdateTV" name="UpdateTV" version="0.2.4" provider-name="soufone">
+<addon id="script.service.UpdateTV" name="UpdateTV" version="0.2.5" provider-name="soufone">
     <requires>
         <import addon="xbmc.python" version="2.25.0" />
         <import addon="xbmc.json" version="7.0.0" />
